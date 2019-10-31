@@ -13664,9 +13664,9 @@ Author: &lt;a href="https://github.com/AhmedSaid/EAGLELibraries"&gt;Ahmed Said&l
 <instance part="GND4" gate="1" x="68.58" y="12.7" smashed="yes">
 <attribute name="VALUE" x="66.04" y="10.16" size="1.778" layer="96"/>
 </instance>
-<instance part="K1" gate="1" x="106.68" y="38.1" smashed="yes" rot="R180">
-<attribute name="VALUE" x="105.41" y="35.179" size="1.778" layer="96" rot="R180"/>
-<attribute name="PART" x="105.41" y="33.02" size="1.778" layer="95" rot="R180"/>
+<instance part="K1" gate="1" x="106.68" y="38.1" smashed="yes">
+<attribute name="VALUE" x="107.95" y="41.021" size="1.778" layer="96"/>
+<attribute name="PART" x="107.95" y="43.18" size="1.778" layer="95"/>
 </instance>
 <instance part="K1" gate="2" x="124.46" y="5.08" smashed="yes">
 <attribute name="PART" x="127" y="5.08" size="1.778" layer="95"/>
@@ -13763,7 +13763,7 @@ Author: &lt;a href="https://github.com/AhmedSaid/EAGLELibraries"&gt;Ahmed Said&l
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="96.52" y1="35.56" x2="96.52" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="30.48" x2="106.68" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="K1" gate="1" pin="1"/>
+<pinref part="K1" gate="1" pin="2"/>
 <wire x1="106.68" y1="33.02" x2="106.68" y2="30.48" width="0.1524" layer="91"/>
 <junction x="106.68" y="30.48"/>
 </segment>
@@ -13850,8 +13850,8 @@ Author: &lt;a href="https://github.com/AhmedSaid/EAGLELibraries"&gt;Ahmed Said&l
 <wire x1="106.68" y1="45.72" x2="106.68" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="40.64" x2="96.52" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="45.72" x2="106.68" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="K1" gate="1" pin="2"/>
-<wire x1="106.68" y1="45.72" x2="106.68" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="K1" gate="1" pin="1"/>
+<wire x1="106.68" y1="43.18" x2="106.68" y2="45.72" width="0.1524" layer="91"/>
 <junction x="106.68" y="45.72"/>
 </segment>
 <segment>
