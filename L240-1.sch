@@ -13668,28 +13668,28 @@ Author: &lt;a href="https://github.com/AhmedSaid/EAGLELibraries"&gt;Ahmed Said&l
 <attribute name="VALUE" x="107.95" y="41.021" size="1.778" layer="96"/>
 <attribute name="PART" x="107.95" y="43.18" size="1.778" layer="95"/>
 </instance>
-<instance part="K1" gate="2" x="124.46" y="5.08" smashed="yes">
-<attribute name="PART" x="127" y="5.08" size="1.778" layer="95"/>
+<instance part="K1" gate="2" x="182.88" y="22.86" smashed="yes">
+<attribute name="PART" x="185.42" y="22.86" size="1.778" layer="95"/>
 </instance>
-<instance part="K1" gate="3" x="134.62" y="101.6" smashed="yes">
-<attribute name="PART" x="137.16" y="101.6" size="1.778" layer="95"/>
+<instance part="K1" gate="3" x="134.62" y="134.62" smashed="yes">
+<attribute name="PART" x="137.16" y="134.62" size="1.778" layer="95"/>
 </instance>
 <instance part="IC3" gate="G$1" x="132.08" y="76.2" smashed="yes" rot="MR0">
 <attribute name="NAME" x="129.54" y="87.63" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="129.54" y="63.5" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="X4" gate="-1" x="157.48" y="48.26" smashed="yes">
-<attribute name="NAME" x="160.528" y="47.371" size="1.778" layer="95"/>
-<attribute name="VALUE" x="154.94" y="44.577" size="1.778" layer="96"/>
+<instance part="X4" gate="-1" x="162.56" y="53.34" smashed="yes">
+<attribute name="NAME" x="165.608" y="52.451" size="1.778" layer="95"/>
+<attribute name="VALUE" x="160.02" y="49.657" size="1.778" layer="96"/>
 </instance>
-<instance part="X4" gate="-2" x="157.48" y="119.38" smashed="yes">
-<attribute name="NAME" x="160.528" y="118.491" size="1.778" layer="95"/>
+<instance part="X4" gate="-2" x="157.48" y="152.4" smashed="yes">
+<attribute name="NAME" x="160.528" y="151.511" size="1.778" layer="95"/>
 </instance>
-<instance part="X4" gate="-3" x="154.94" y="17.78" smashed="yes">
-<attribute name="NAME" x="157.988" y="16.891" size="1.778" layer="95"/>
+<instance part="X4" gate="-3" x="213.36" y="35.56" smashed="yes">
+<attribute name="NAME" x="216.408" y="34.671" size="1.778" layer="95"/>
 </instance>
-<instance part="X4" gate="-4" x="154.94" y="2.54" smashed="yes">
-<attribute name="NAME" x="157.988" y="1.651" size="1.778" layer="95"/>
+<instance part="X4" gate="-4" x="213.36" y="20.32" smashed="yes">
+<attribute name="NAME" x="216.408" y="19.431" size="1.778" layer="95"/>
 </instance>
 <instance part="P+3" gate="1" x="114.3" y="96.52" smashed="yes">
 <attribute name="VALUE" x="111.76" y="91.44" size="1.778" layer="96" rot="R90"/>
@@ -13743,9 +13743,10 @@ Author: &lt;a href="https://github.com/AhmedSaid/EAGLELibraries"&gt;Ahmed Said&l
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="20.32" x2="30.48" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="PB4/PCINT4/ADC2"/>
-<wire x1="38.1" y1="66.04" x2="30.48" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="66.04" x2="30.48" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="68.58" x2="30.48" y2="20.32" width="0.1524" layer="91"/>
+<label x="30.48" y="38.1" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="PB3/PCINT3/CLKI/ADC3"/>
+<wire x1="30.48" y1="68.58" x2="38.1" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -13763,9 +13764,9 @@ Author: &lt;a href="https://github.com/AhmedSaid/EAGLELibraries"&gt;Ahmed Said&l
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="96.52" y1="35.56" x2="96.52" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="30.48" x2="106.68" y2="30.48" width="0.1524" layer="91"/>
+<junction x="106.68" y="30.48"/>
 <pinref part="K1" gate="1" pin="2"/>
 <wire x1="106.68" y1="33.02" x2="106.68" y2="30.48" width="0.1524" layer="91"/>
-<junction x="106.68" y="30.48"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -13929,12 +13930,6 @@ Author: &lt;a href="https://github.com/AhmedSaid/EAGLELibraries"&gt;Ahmed Said&l
 </net>
 <net name="N-IN" class="0">
 <segment>
-<pinref part="X4" gate="-4" pin="KL"/>
-<wire x1="124.46" y1="2.54" x2="152.4" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="K1" gate="2" pin="P"/>
-<label x="139.7" y="2.54" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="MD1" gate="G$1" pin="AC1"/>
 <wire x1="-43.18" y1="63.5" x2="-86.36" y2="63.5" width="0.1524" layer="91"/>
 </segment>
@@ -13942,47 +13937,34 @@ Author: &lt;a href="https://github.com/AhmedSaid/EAGLELibraries"&gt;Ahmed Said&l
 <pinref part="HLK1" gate="G$1" pin="AC1"/>
 <wire x1="-81.28" y1="96.52" x2="-101.6" y2="96.52" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="K1" gate="2" pin="P"/>
+<wire x1="149.86" y1="20.32" x2="182.88" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="X4" gate="-4" pin="KL"/>
+<wire x1="182.88" y1="20.32" x2="210.82" y2="20.32" width="0.1524" layer="91"/>
+<label x="195.58" y="20.32" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N-OUT" class="0">
 <segment>
 <pinref part="K1" gate="2" pin="S"/>
 <pinref part="X4" gate="-3" pin="KL"/>
-<wire x1="119.38" y1="10.16" x2="119.38" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="17.78" x2="152.4" y2="17.78" width="0.1524" layer="91"/>
-<label x="139.7" y="17.78" size="1.778" layer="95"/>
+<wire x1="177.8" y1="27.94" x2="177.8" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="35.56" x2="210.82" y2="35.56" width="0.1524" layer="91"/>
+<label x="198.12" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="L-OUT" class="0">
 <segment>
 <pinref part="K1" gate="3" pin="S"/>
-<wire x1="127" y1="106.68" x2="129.54" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="127" y1="139.7" x2="129.54" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="X4" gate="-2" pin="KL"/>
-<wire x1="127" y1="106.68" x2="127" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="127" y1="119.38" x2="154.94" y2="119.38" width="0.1524" layer="91"/>
-<label x="137.16" y="119.38" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="K1" gate="3" pin="P"/>
-<pinref part="IC3" gate="G$1" pin="IP+1"/>
-<wire x1="134.62" y1="99.06" x2="134.62" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="IP+"/>
-<wire x1="134.62" y1="91.44" x2="139.7" y2="91.44" width="0.1524" layer="91"/>
-<junction x="134.62" y="91.44"/>
+<wire x1="127" y1="139.7" x2="127" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="127" y1="152.4" x2="154.94" y2="152.4" width="0.1524" layer="91"/>
+<label x="137.16" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="L-IN" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="IP-"/>
-<pinref part="IC3" gate="G$1" pin="IP-1"/>
-<wire x1="139.7" y1="60.96" x2="134.62" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="60.96" x2="134.62" y2="48.26" width="0.1524" layer="91"/>
-<junction x="134.62" y="60.96"/>
-<pinref part="X4" gate="-1" pin="KL"/>
-<wire x1="134.62" y1="48.26" x2="154.94" y2="48.26" width="0.1524" layer="91"/>
-<label x="142.24" y="48.26" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="MD1" gate="G$1" pin="AC2"/>
 <wire x1="-43.18" y1="78.74" x2="-83.82" y2="78.74" width="0.1524" layer="91"/>
@@ -13992,17 +13974,27 @@ Author: &lt;a href="https://github.com/AhmedSaid/EAGLELibraries"&gt;Ahmed Said&l
 <wire x1="-81.28" y1="101.6" x2="-101.6" y2="101.6" width="0.1524" layer="91"/>
 <label x="-96.52" y="101.6" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="139.7" y1="53.34" x2="160.02" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="X4" gate="-1" pin="KL"/>
+<label x="149.86" y="53.34" size="1.778" layer="95"/>
+<pinref part="IC3" gate="G$1" pin="IP-"/>
+<pinref part="IC3" gate="G$1" pin="IP-1"/>
+<wire x1="134.62" y1="60.96" x2="139.7" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="53.34" x2="139.7" y2="60.96" width="0.1524" layer="91"/>
+<junction x="139.7" y="60.96"/>
+</segment>
 </net>
 <net name="LOAD" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PB3/PCINT3/CLKI/ADC3"/>
-<wire x1="38.1" y1="68.58" x2="27.94" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="68.58" x2="27.94" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="66.04" x2="27.94" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="45.72" x2="88.9" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="45.72" x2="88.9" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="VOUT"/>
 <wire x1="88.9" y1="78.74" x2="116.84" y2="78.74" width="0.1524" layer="91"/>
 <label x="68.58" y="45.72" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="PB4/PCINT4/ADC2"/>
+<wire x1="38.1" y1="66.04" x2="27.94" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -14010,6 +14002,16 @@ Author: &lt;a href="https://github.com/AhmedSaid/EAGLELibraries"&gt;Ahmed Said&l
 <pinref part="IC3" gate="G$1" pin="FILTER"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="73.66" x2="104.14" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="IP+"/>
+<pinref part="IC3" gate="G$1" pin="IP+1"/>
+<wire x1="134.62" y1="91.44" x2="139.7" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="K1" gate="3" pin="P"/>
+<wire x1="134.62" y1="91.44" x2="134.62" y2="132.08" width="0.1524" layer="91"/>
+<junction x="134.62" y="91.44"/>
 </segment>
 </net>
 </nets>
